@@ -34,12 +34,6 @@
 
 ## Semana 2: Python
 
-### Objetivo de la Semana
-Realizar upskilling a coder en Python, para que pueda leer, mantener y extender aplicaciones Python en producción, manejando errores, logs, APIs, base de datos y despliegue.
-
-### Reto de la Semana
-Poner en producción una API Python existente con manejo de excepciones, logging, integración con API externa, conexión a BD y despliegue en EC2, simulando incidentes y soporte.
-
 ### Día 6 – 27/01/2026: Python - Lectura de Proyecto Real
 - **Objetivo**: Comprender estructura y flujo de una aplicación existente.
 - **Estrategias**: Visión general de Lambda, S3, RDS/DynamoDB y API Gateway: cuándo se usan, cómo se integran con EC2 y flujos típicos.
