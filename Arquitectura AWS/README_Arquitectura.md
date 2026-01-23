@@ -35,12 +35,12 @@ Este documento proporciona una guía completa para entender y elegir la mejor pl
 - **Lambda** (Funciones serverless)
 
 Con enfoque en:
-- ✅ Escalabilidad horizontal y vertical
-- ✅ Alta disponibilidad y resiliencia
-- ✅ Optimización de costos
-- ✅ DevOps y CI/CD
-- ✅ Complejidad operativa
-- ✅ Arquitecturas modernas (Microservicios, Clean Architecture, Event-Driven)
+-  Escalabilidad horizontal y vertical
+-  Alta disponibilidad y resiliencia
+-  Optimización de costos
+-  DevOps y CI/CD
+-  Complejidad operativa
+-  Arquitecturas modernas (Microservicios, Clean Architecture, Event-Driven)
 
 ---
 
@@ -97,35 +97,35 @@ Máquinas virtuales escalables en la nube. Tienes control total sobre el sistema
 
 ### Casos de Uso Ideales
 
-✅ **Monolitos tradicionales**
+ **Monolitos tradicionales**
 
-✅ **Aplicaciones Legacy que requieren SO específico
+ **Aplicaciones Legacy que requieren SO específico
 
-✅ **Migraciones Lift-and-Shift desde datacenter
+ **Migraciones Lift-and-Shift desde datacenter
 
-✅ **Aplicaciones con requisitos específicos de hardware
+ **Aplicaciones con requisitos específicos de hardware
 
-✅ **Bases de datos (MySQL, PostgreSQL en EC2)
+ **Bases de datos (MySQL, PostgreSQL en EC2)
 
-✅ **Aplicaciones con estado (cache, sesiones en memoria)
+ **Aplicaciones con estado (cache, sesiones en memoria)
 
 ### Ventajas
 
-- ✅ Control total del sistema
-- ✅ Compatible con herramientas on-premises
-- ✅ Acceso a nivel de SO
-- ✅ Redes personalizadas complejas
-- ✅ Menor latencia (máquinas dedicadas)
-- ✅ Economía de escala (Reserved Instances)
+-  Control total del sistema
+-  Compatible con herramientas on-premises
+-  Acceso a nivel de SO
+-  Redes personalizadas complejas
+-  Menor latencia (máquinas dedicadas)
+-  Economía de escala (Reserved Instances)
 
 ### Desventajas
 
-- ❌ Mantenimiento de SO y parches
-- ❌ Escalabilidad más lenta (minutos)
-- ❌ Gestión de inventario de servidores
-- ❌ Mayor costo operativo
-- ❌ Requiere DevOps expertise
-- ❌ Acoplamiento a infraestructura
+- Mantenimiento de SO y parches
+- Escalabilidad más lenta (minutos)
+- Gestión de inventario de servidores
+- Mayor costo operativo
+- Requiere DevOps expertise
+- Acoplamiento a infraestructura
 
 ### Ejemplo: Despliegue de Aplicación Java
 
@@ -166,25 +166,25 @@ Servicio de orquestación de contenedores que facilita la ejecución, detención
 
 ### Casos de Uso Ideales
 
-✅ **Microservicios simples**
+ **Microservicios simples**
 
-✅ **Aplicaciones en contenedores sin gestión de infraestructura
+ **Aplicaciones en contenedores sin gestión de infraestructura
 
-✅ **Entornos de desarrollo y prueba
+ **Entornos de desarrollo y prueba
 
 ### Ventajas
 
-- ✅ Integración nativa con AWS
-- ✅ Escalado automático
-- ✅ Menos sobrecarga de gestión
-- ✅ Seguridad mejorada (aislamiento de contenedores)
-- ✅ Precios competitivos
+-  Integración nativa con AWS
+-  Escalado automático
+-  Menos sobrecarga de gestión
+-  Seguridad mejorada (aislamiento de contenedores)
+-  Precios competitivos
 
 ### Desventajas
 
-- ❌ Menos control que EC2
-- ❌ Dependencia de la infraestructura de AWS
-- ❌ Curva de aprendizaje para Docker y ECS
+- Menos control que EC2
+- Dependencia de la infraestructura de AWS
+- Curva de aprendizaje para Docker y ECS
 
 ---
 
@@ -206,25 +206,25 @@ Motor de computación serverless para contenedores que funciona con Amazon ECS y
 
 ### Casos de Uso Ideales
 
-✅ **Aplicaciones basadas en microservicios**
+ **Aplicaciones basadas en microservicios**
 
-✅ **APIs y backends ligeros
+ **APIs y backends ligeros
 
-✅ **Tareas y trabajos por lotes
+ **Tareas y trabajos por lotes
 
 ### Ventajas
 
-- ✅ Sin gestión de servidores
-- ✅ Escalado automático y rápido
-- ✅ Integración con servicios de AWS
-- ✅ Modelo de precios por uso
-- ✅ Seguridad y aislamiento mejorados
+-  Sin gestión de servidores
+-  Escalado automático y rápido
+-  Integración con servicios de AWS
+-  Modelo de precios por uso
+-  Seguridad y aislamiento mejorados
 
 ### Desventajas
 
-- ❌ Menos control sobre la infraestructura
-- ❌ Dependencia del ecosistema AWS
-- ❌ Puede ser más costoso que EC2 en algunos casos
+- Menos control sobre la infraestructura
+- Dependencia del ecosistema AWS
+- Puede ser más costoso que EC2 en algunos casos
 
 ---
 
@@ -246,25 +246,25 @@ Servicio administrado de Kubernetes que facilita la ejecución de Kubernetes en 
 
 ### Casos de Uso Ideales
 
-✅ **Microservicios en contenedores**
+ **Microservicios en contenedores**
 
-✅ **Aplicaciones con requisitos de escalabilidad y disponibilidad
+ **Aplicaciones con requisitos de escalabilidad y disponibilidad
 
-✅ **Entornos híbridos o multinube
+ **Entornos híbridos o multinube
 
 ### Ventajas
 
-- ✅ Control total sobre el clúster de Kubernetes
-- ✅ Escalabilidad y alta disponibilidad
-- ✅ Integración con herramientas de Kubernetes
-- ✅ Seguridad mejorada (IAM, VPC, etc.)
-- ✅ Flexibilidad en la elección de instancias y almacenamiento
+-  Control total sobre el clúster de Kubernetes
+-  Escalabilidad y alta disponibilidad
+-  Integración con herramientas de Kubernetes
+-  Seguridad mejorada (IAM, VPC, etc.)
+-  Flexibilidad en la elección de instancias y almacenamiento
 
 ### Desventajas
 
-- ❌ Mayor complejidad operativa
-- ❌ Curva de aprendizaje de Kubernetes
-- ❌ Costos variables y potencialmente más altos
+- Mayor complejidad operativa
+- Curva de aprendizaje de Kubernetes
+- Costos variables y potencialmente más altos
 
 ---
 
@@ -286,25 +286,25 @@ Servicio de computación serverless que ejecuta tu código en respuesta a evento
 
 ### Casos de Uso Ideales
 
-✅ **Aplicaciones event-driven**
+ **Aplicaciones event-driven**
 
-✅ **APIs y microservicios ligeros
+ **APIs y microservicios ligeros
 
-✅ **Procesamiento de datos en tiempo real
+ **Procesamiento de datos en tiempo real
 
 ### Ventajas
 
-- ✅ Sin gestión de servidores
-- ✅ Escalado automático e instantáneo
-- ✅ Modelo de precios por uso (pago por solicitud)
-- ✅ Integración con muchos servicios de AWS
-- ✅ Seguridad y aislamiento mejorados
+-  Sin gestión de servidores
+-  Escalado automático e instantáneo
+-  Modelo de precios por uso (pago por solicitud)
+-  Integración con muchos servicios de AWS
+-  Seguridad y aislamiento mejorados
 
 ### Desventajas
 
-- ❌ Tiempo de ejecución limitado (máx. 15 min)
-- ❌ Dependencia del ecosistema AWS
-- ❌ Puede ser más costoso que EC2 en algunos casos
+- Tiempo de ejecución limitado (máx. 15 min)
+- Dependencia del ecosistema AWS
+- Puede ser más costoso que EC2 en algunos casos
 
 ---
 
@@ -345,9 +345,9 @@ Servicio de computación serverless que ejecuta tu código en respuesta a evento
 - **ElastiCache:** Cache en memoria para sesiones.
 
 **Resultados:**
-- ✅ Reducción de costos de infraestructura.
-- ✅ Mayor escalabilidad y disponibilidad.
-- ✅ Menor tiempo de inactividad.
+-  Reducción de costos de infraestructura.
+-  Mayor escalabilidad y disponibilidad.
+-  Menor tiempo de inactividad.
 
 ### Caso 2: Nueva Aplicación Serverless
 
@@ -362,9 +362,9 @@ Servicio de computación serverless que ejecuta tu código en respuesta a evento
 - **Base de datos:** DynamoDB.
 
 **Resultados:**
-- ✅ Despliegue en horas, no en días.
-- ✅ Costos iniciales muy bajos.
-- ✅ Escalabilidad automática.
+-  Despliegue en horas, no en días.
+-  Costos iniciales muy bajos.
+-  Escalabilidad automática.
 
 ### Caso 3: Procesamiento de Imágenes en Tiempo Real
 
@@ -377,9 +377,9 @@ Servicio de computación serverless que ejecuta tu código en respuesta a evento
 - **Notificación:** SNS → Lambda → SES.
 
 **Resultados:**
-- ✅ Arquitectura totalmente serverless.
-- ✅ Escalabilidad automática.
-- ✅ Costos muy bajos por uso.
+-  Arquitectura totalmente serverless.
+-  Escalabilidad automática.
+-  Costos muy bajos por uso.
 
 ---
 
@@ -457,13 +457,13 @@ sudo docker run hello-world
 
 **El documento ha sido mejorado con:**
 
-✅ Tabla de contenidos completa  
-✅ Pirámide de abstracción visual  
-✅ 5 secciones detalladas (EC2, ECS, Fargate, EKS, Lambda)  
-✅ Comparativa detallada con tablas  
-✅ 3 casos de uso reales con diagramas  
-✅ Ruta evolutiva clara  
-✅ Ejemplos prácticos para cada servicio  
-✅ Matriz de decisión completa  
-✅ Análisis de costos específicos  
-✅ Checklist de selección  
+ Tabla de contenidos completa  
+ Pirámide de abstracción visual  
+ 5 secciones detalladas (EC2, ECS, Fargate, EKS, Lambda)  
+ Comparativa detallada con tablas  
+ 3 casos de uso reales con diagramas  
+ Ruta evolutiva clara  
+ Ejemplos prácticos para cada servicio  
+ Matriz de decisión completa  
+ Análisis de costos específicos  
+ Checklist de selección  
