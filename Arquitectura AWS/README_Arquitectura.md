@@ -40,7 +40,6 @@ Con enfoque en:
 -  Optimización de costos
 -  DevOps y CI/CD
 -  Complejidad operativa
--  Arquitecturas modernas (Microservicios, Clean Architecture, Event-Driven)
 
 ---
 
@@ -57,25 +56,14 @@ Infraestructura como Servicio (IaaS)
               │
               ▼
   Plataforma como Servicio (PaaS)
-        ┌────────────┐
         │   AWS      │
         │   Fargate  │
         └─────┬──────┘
               │
               ▼
- Contenedores como Servicio (CaaS)
-        ┌────────────┐
-        │   Amazon   │
-        │    ECS     │
         └─────┬──────┘
               │
-              ▼
-  Funciones como Servicio (FaaS)
-        ┌────────────┐
-        │   AWS      │
-        │   Lambda   │
         └────────────┘
-```
 
 ---
 
@@ -134,39 +122,20 @@ Máquinas virtuales escalables en la nube. Tienes control total sobre el sistema
 aws ec2 run-instances --image-id ami-0c55b159cbfafe1f0 \
   --instance-type t3.medium --key-name my-key
 
-# 2. Conectarse y configurar
 ssh -i my-key.pem ec2-user@<IP>
 
 # 3. Instalar Java
 sudo yum install java-11-openjdk java-11-openjdk-devel
-
-# 4. Desplegar aplicación
-scp app.jar ec2-user@<IP>:/opt/app/
-java -jar /opt/app/app.jar
 ```
-
----
 
 ## 2. Amazon ECS – Elastic Container Service
 Orquestador Docker nativo de AWS sin complejidad de Kubernetes.
 
-### ¿Qué es?
-Servicio de orquestación de contenedores que facilita la ejecución, detención y gestión de contenedores Docker en un clúster.
 
 ### Características Principales
-
-| Aspecto | Descripción |
-|--------|-------------|
-| **Control** | ⭐⭐⭐⭐ Alto (menos que EC2) |
 | **Escalabilidad** | ⭐⭐⭐⭐ Alta (Auto Scaling) |
 | **Mantenimiento** | ⭐⭐⭐ Bajo (sin SO) |
-| **Costo** | ⭐⭐⭐ Variable (según uso) |
-| **Complejidad** | ⭐⭐ Baja |
-| **Startup** | Minutos |
 
-### Casos de Uso Ideales
-
- **Microservicios simples**
 
  **Aplicaciones en contenedores sin gestión de infraestructura
 
