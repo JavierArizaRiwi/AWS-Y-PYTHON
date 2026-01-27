@@ -86,7 +86,7 @@ CloudTrail (Auditoría)
 ```
 Health check (cada 5 seg):
 GET /health → HTTP 200
-✅ Aplicación está viva
+ Aplicación está viva
 
 Readiness check:
 GET /ready → Verifica:
